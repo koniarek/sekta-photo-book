@@ -4,8 +4,9 @@ html {
     overflow-y: scroll;
 }
 body {
+    background: black;
     font-family: Open Sans,serif;
-    color: gray;
+    color: #ffffff;
     font-weight: 400;
     font-size: 80%;
     margin: 2px 2px 2px 2px;
@@ -20,7 +21,7 @@ body {
     box-sizing: inherit;
 }
 a {
-    color: gray;
+    color: white;
     text-decoration: none;
     outline: none;
 }

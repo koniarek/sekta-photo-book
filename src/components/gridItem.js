@@ -22,12 +22,12 @@ class GridItem extends React.Component {
 
         return (
             <React.Fragment>
-                
+
                 <div className="img-container" key={props.index}>
-    
+
                     {props.item && (
                         <>
-                            {/* 
+                            {/*
                               * The span is used for anchoring scroll position when the user clicks 'x' to return to main page.
                               * Do not refactor the id into Link or Chrome will sometimes scroll into _middle_ of img instead of top.
                               * Do not refactor the hidden dot away or Firefox will set scroll position to the _bottom_ of img instead of top.
@@ -38,7 +38,7 @@ class GridItem extends React.Component {
                             </a>
                         </>
                     )}
-                    
+
                 </div>
                 <style jsx>
                     {`
@@ -54,7 +54,7 @@ class GridItem extends React.Component {
                             position: relative;
                             width: 100%;
                             height: 100%;
-                            background: #EEE;
+                            background: #000000;
                             border-radius: 5px;
                             border: 1px solid ghostwhite;
                             overflow: hidden;
@@ -93,7 +93,7 @@ class GridItem extends React.Component {
         )
     }
 
-    
+
 }
 
 export default GridItem
