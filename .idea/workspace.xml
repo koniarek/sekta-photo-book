@@ -44,12 +44,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -67,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.develop" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
@@ -82,7 +93,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569620483769</updated>
-      <workItem from="1569620484865" duration="7144000" />
+      <workItem from="1569620484865" duration="7873000" />
+      <workItem from="1569682303449" duration="506000" />
+      <workItem from="1569739531329" duration="1196000" />
+      <workItem from="1569937810037" duration="1217000" />
+      <workItem from="1570043609941" duration="1529000" />
+      <workItem from="1570098934961" duration="148000" />
+      <workItem from="1570125386239" duration="228000" />
+      <workItem from="1570386623409" duration="471000" />
+      <workItem from="1570469360967" duration="359000" />
+      <workItem from="1570573444901" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="gallery has been updated">
       <created>1569626920635</created>
@@ -98,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569627486236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gallery has been updated">
+      <created>1569667602347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569667602347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +136,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
