@@ -1,6 +1,5 @@
 <h1 align="center">
-  :camera: Gatsby Starter Photo Book :camera:
-</h1>
+  Based on Gatsby Starter Photo Book 
 
 »»» [Live demo](https://gatsby-starter-photo-book.netlify.com) «««
 
@@ -73,12 +72,7 @@ In addition, gallery's infinite scroll:
 - Sometimes cornerCaseHandler tries to initiate fetches to pages that don't exist. I've had difficulty reproducing this, but I've seen it twice. There's no harm from doing these fetches so I've just supressed the errors from them for now.
 - Updating Gatsby-related dependencies causes placeholder SVGs to misalign. It is somehow related to a change in how Gatsby generates SVGs (after updating, they no longer contain a viewBox attribute, and they scale incorrectly).
 
-## 🎓 Attribution
 
-Hi, I'm Atte and I created this because I wanted to share our wedding photos on a fast & beautiful user-friendly website. This is a fork of my other project [Gatsby Starter Infinite Scroll](https://github.com/baobabKoodaa/gatsby-starter-infinite-scroll), which is more of a general purpose starter whereas this one is specialized for sharing photosets. 
-
-- My wife Marianne was integral in the design.
-- Images are from [Unsplash](https://unsplash.com).
 - Icons are from [FontAwesome](https://www.fontawesome.com).
 - Infinite scroll uses some code from Jared Palmer's [react-simple-infinite-scroll](https://github.com/jaredpalmer/react-simple-infinite-scroll).
 - Gallery CSS Grid is modified from work by [LekoArts](https://www.lekoarts.de/).
